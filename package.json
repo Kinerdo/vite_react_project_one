@@ -1,7 +1,7 @@
 {
   "name": "vite_react_project_one",
   "homepage": "https://kinerdo.github.io/vite_react_project_one/",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
