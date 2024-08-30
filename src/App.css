@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+.horizontal-list {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Makes the list items display in a row */
+  justify-content: center; /* Centers the list items horizontally */
+}
+
+.horizontal-list li {
+  margin-right: 15px; /* Adds space between the items */
+  color: white; /* Sets the text color to white */
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0; /* Removes the margin after the last item */
+}
+
+.horizontal-list a {
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Sets the link color to white */
+}
+
+.horizontal-list a:hover {
+  text-decoration: underline; /* Underlines the link on hover */
+  color: white; /* Sets the link color to white */
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 4fr 1fr 1fr; /* Adjust row heights as needed */
+  gap: 10px; /* Adjust spacing as needed */
+}
